@@ -200,7 +200,7 @@ strong::before {
 }
 
 #title-section {
-  /* border: 1px solid; */
+  border: 1px solid;
   width: 100;
   padding: 0 15px;
 }
@@ -245,6 +245,84 @@ strong::before {
   font-weight: 300;
   line-height: 25px;
 }
+
 #Skills > .container {
-    flex-direction: column;
+    /* border: 1px solid; */
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.env {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-env {
+  /* border: 1px solid; */
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.active {
+  color: #6096b4;
+  background-color: #739bb128;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+.btn-env:hover{
+  color: #6096b4;
+  background-color: #739bb128;
+  padding: 4px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+.cards{
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 10px;
+  /* border: 1px solid red; */
+}
+
+.card {
+  border: 2px solid #739bb1;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 12vh;
+  gap: 20px;
+  padding: 8px 12px;
+}
+
+.card img {
+  max-width: 50px;
+  /* border: 1px solid; */
+}
+
+.card h6 {
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+#level {
+  color: #739bb1;
+}
+
+.hidden {
+  display: none;
+}
+
+.card:hover {
+  background-color: #739bb128;
 }

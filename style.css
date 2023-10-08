@@ -75,7 +75,6 @@ nav {
 }
 
 #Home > .container {
-  border: 1px solid;
   padding-top: 40px;
   height: 100vh;
   display: flex;
@@ -184,7 +183,6 @@ strong::before {
 }
 
 #title-section {
-  border: 1px solid;
   width: 100;
   padding: 0 15px;
 }
@@ -266,7 +264,6 @@ strong::before {
 }
 
 .cards {
-  border: 1px solid;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -372,7 +369,6 @@ strong::before {
 }
 
 #Contact > .container {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -382,7 +378,6 @@ strong::before {
 }
 
 .container-contact {
-  border: 1px solid #ffa125;
   width: 100%;
 }
 
@@ -468,7 +463,6 @@ textarea {
 }
 
 .wrapper {
-  border: 1px solid;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -486,4 +480,23 @@ textarea {
 
 .sosmed a {
   margin: 0 5px;
+}
+
+footer {
+  border: 2px solid;
+}
+
+footer > .container {
+  align-items: end;
+}
+
+.footer-logo h1 {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  letter-spacing: 5px;
 }
